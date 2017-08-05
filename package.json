@@ -4,6 +4,7 @@
   "description": "Proxy to IFPA API to get rank by player name",
   "main": "index.js",
   "scripts": {
+    "start": "DEBUG='ifpa-rank-service*' node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
