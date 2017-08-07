@@ -13,3 +13,5 @@ require('fs').readdirSync('./route').forEach( route => {
 });
 
 // TODO: Do we need some error-middleware?
+
+module.exports = app;
