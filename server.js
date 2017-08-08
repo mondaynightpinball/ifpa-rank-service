@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('peoplelookup:server');
+const debug = require('debug')('ifpa-rank-service:server');
 const app = require('./main.js');
 
 require('dotenv').load();
